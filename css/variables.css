@@ -1,0 +1,12 @@
+:root{
+    --font-color: #333946;
+    --accent-color: #C7FF00;
+    --accent-color2: #D9D9D9;
+    --bg-color: #FFFFFF;
+}
+.dark-theme {
+    --bg-color:#333946;
+    --font-color:#FFFFFF;
+    --accent-color: #C7FF00;
+    --accent-color2: #D9D9D9;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test-task</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="course-card">
+        <div class="container">
+            <img class="course-card__icon" src="icons/briefcase.png" alt="иконка портфеля">
+            <button class="theme-toggler">
+                <img src="icons/theme.png" class="theme-toggler__icon" alt="иконка темы">
+            </button>
+            <ul class="tags">
+                <li class="tags__item">
+                    <p class="item__text">Рабочие профессии</p>
+                </li>
+                <li class="tags__item">
+                    <p class="item__text">Для физических лиц</p>
+                </li>
+                <li class="tags__item">
+                    <p class="item__text">Проверка знаний</p>
+                </li>
+                <li class="tags__item">
+                    <p class="item__text">Осталось 27 дн.</p>
+                </li>
+            </ul>
+            <div class="course__description">
+                <h3 class="course__description-title">Использование (применение) средств индивидуальной защиты</h3>
+                <p class="course__description-text">Дистанционное обучение по курсу Использование (применение) средств
+                    индивидуальной защиты (СИЗ) на платформе Проводник. Вы получите протокол проверки знаний по охране
+                    труда с регистрационным номером из реестра Минтруда.</p>
+            </div>
+            <div class="progress">
+                <div class="progress__scale">
+                    <p class="progress__scale-title">Прогресс обучения
+                    <p>
+                    <div class="progress-cubes__container" role="progressbar" aria-valuenow="3" aria-valuemin="0"
+                        aria-valuemax="5">
+                        <div class="progress-cubes__cube progress-cubes__cube--filled"></div>
+                        <div class="progress-cubes__cube progress-cubes__cube--filled"></div>
+                        <div class="progress-cubes__cube progress-cubes__cube--filled"></div>
+                        <div class="progress-cubes__cube"></div>
+                        <div class="progress-cubes__cube"></div>
+                        <div class="progress-cubes__cube"><span class="progress-percent">75%</span></div>
+                    </div>
+                </div>
+                <div class="progress-info">
+                    <div class="progress-info__item">
+                        <img class="progress-info__icon" src="icons/сalendar.png" alt="иконка календаря">
+                        <span class="progress-info__label">Начало обучения</span>
+                        <time class="progress-info__value" datetime="2022-03-14">14.03.2022</time>
+                    </div>
+                    
+                    <div class="progress-info__item">
+                        <img class="progress-info__icon" src="icons/сalendar.png" alt="иконка календаря">
+                        <span class="progress-info__label">Завершить обучение до</span>
+                        <time class="progress-info__value" datetime="2022-03-14T11:29">14.03.2022 11:29</time>
+                    </div>
+                    
+                    <div class="progress-info__item">
+                        <img class="progress-info__icon" src="icons/personality.png" alt="иконка с людьми">
+                        <span class="progress-info__label">Курсы назначены</span>
+                        <span class="progress-info__value">Иван Иванов <br> ivan@worksa.ru</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="script/script.js"></script>
+</body>
+
+</html>
