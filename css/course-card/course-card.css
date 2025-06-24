@@ -25,10 +25,12 @@
     background-color: var(--accent-color);
     font-size: 13px;
     padding: 7px 9px;
+    color: #333946;
 }
 
 .tags__item:last-of-type {
-    background: var(--font-color);
+    background: #333946;
+    border: 1px solid var(--accent-color);
     color: var(--accent-color);
     margin-left: auto;
 }
