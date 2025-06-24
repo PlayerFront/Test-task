@@ -8,9 +8,14 @@
     border-radius: 50%;
     padding: 6px;
     position: fixed;
-    top: 100px;
+    height: 50px;
+    width: 50px;
+    bottom: 3%;
+    right: 5%;
     background: #FFFFFF;
     cursor: pointer;
+    z-index: 1000;
+    object-fit: contain;
 }
 
 .tags {
@@ -135,10 +140,6 @@
         left: 0;
     }
 
-    .theme-toggler {
-        left: 0;
-    }
-
     .tags {
         gap: 5px;
         margin-top: 10px;
@@ -199,21 +200,18 @@
     }
 
     .course-card__icon {
-        width: 30px;
-        top: 10px;
-    }
-
-    .theme-toggler {
-        left: 0;
+        display: none;
     }
 
     .tags {
         gap: 5px;
         margin-top: 10px;
     }
+
     .tags__item:last-of-type {
         display: none;
     }
+
     .tags,
     .course__description,
     .progress {
