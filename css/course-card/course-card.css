@@ -2,15 +2,17 @@
     position: absolute;
     top: 21px;
 }
+
 .theme-toggler {
     border: 1px solid var(--accent-color2);
     border-radius: 50%;
     padding: 6px;
     position: fixed;
     top: 100px;
-    background:var(--bg-color);
+    background: #FFFFFF;
     cursor: pointer;
 }
+
 .tags {
     list-style: none;
     margin-left: 70px;
@@ -132,31 +134,42 @@
         top: 10px;
         left: 0;
     }
+
     .theme-toggler {
         left: 0;
     }
 
     .tags {
-        flex-direction: column;
         gap: 5px;
         margin-top: 10px;
     }
-    .tags__item:last-of-type {
-        margin-left: 0;
+
+    .course__description-title {
+        font-size: 16px;
     }
+
+    .course__description-text {
+        font-size: 14px;
+    }
+
     .tags,
     .course__description,
     .progress {
         margin-left: 40px;
     }
-    .progress-info {
-        flex-direction: column;
-        margin-left: 0;
-        align-items: flex-start;
-    }
+
     .progress {
-        flex-direction: column;
         gap: 10px;
+        font-size: 14px;
+    }
+
+    .progress-info {
+        align-items: center;
+    }
+
+    .progress-cubes__cube {
+        width: 25px;
+        height: 25px;
     }
 
     .progress-info__item {
@@ -189,15 +202,18 @@
         width: 30px;
         top: 10px;
     }
+
     .theme-toggler {
         left: 0;
     }
+
     .tags {
-        flex-direction: column;
         gap: 5px;
         margin-top: 10px;
     }
-
+    .tags__item:last-of-type {
+        display: none;
+    }
     .tags,
     .course__description,
     .progress {
